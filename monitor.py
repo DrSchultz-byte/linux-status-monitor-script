@@ -110,9 +110,9 @@ def disk_info_root():
                 return content
 # 将系统信息发送到指定邮箱
 def send_mail(info):
-    my_sender = 'zhz3347146797@163.com'  # 发件人邮箱账号
-    my_pass = 'LTGYADVBSWOIRNKV'  # 发件人邮箱密码
-    my_user = '961712801@qq.com'  # 收件人邮箱账号
+    my_sender = 'xxxxxx@163.com'  # 发件人邮箱账号
+    my_pass = 'xxxxxx'  # 发件人邮箱密码
+    my_user = 'xxxxxx@qq.com'  # 收件人邮箱账号
     ret = True
     try:
         msg = MIMEText(info, 'plain', 'utf-8')
